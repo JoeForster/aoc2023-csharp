@@ -4,8 +4,6 @@ internal class Program
 {
 	private static IDaySolution GetDaySolution(int dayNumber)
 	{
-		IDaySolution result = null;
-
 		// TODO: Could do something fancy with reflection here to get the type
 		// at runtime and instantiate based on the passed dayNumber param.
 		switch (dayNumber)

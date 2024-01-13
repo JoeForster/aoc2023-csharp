@@ -8,8 +8,6 @@ namespace aoc2023_csharp
 		// In part one used just to sum, then refactored to share for part 2
 		private IEnumerable<int> ScanForAdjacentNumbers(string[] lines, int symbolX, int symbolY)
 		{
-			int total = 0;
-
 			// Scan the rows above and below for adjacent numbers
 			foreach (int checkY in new int[]{symbolY - 1, symbolY + 1})
 			{
